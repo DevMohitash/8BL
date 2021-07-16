@@ -14,17 +14,17 @@ kmsg3() {
 
 sleep 1
 
-$BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/bl1.sh /data/adb/modules/butterlimitsforop7poos11uni/bl.sh
-$BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/zoff.sh /data/adb/modules/butterlimitsforop7poos11uni/post-fs-data.sh
-$BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/blbb1.sh /data/adb/modules/butterlimitsforop7poos11uni/blbb.sh
-$BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/blext1.sh /data/adb/modules/butterlimitsforop7poos11uni/blext.sh
+$BB cp -rf /data/adb/modules/butterlimitsforop8poos11uni/bl1.sh /data/adb/modules/butterlimitsforop8poos11uni/bl.sh
+$BB cp -rf /data/adb/modules/butterlimitsforop8poos11uni/zoff.sh /data/adb/modules/butterlimitsforop8poos11uni/post-fs-data.sh
+$BB cp -rf /data/adb/modules/butterlimitsforop8poos11uni/blbb1.sh /data/adb/modules/butterlimitsforop8poos11uni/blbb.sh
+$BB cp -rf /data/adb/modules/butterlimitsforop8poos11uni/blext1.sh /data/adb/modules/butterlimitsforop8poos11uni/blext.sh
 
-$BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/service1.sh /data/adb/modules/butterlimitsforop7poos11uni/service.sh
+$BB cp -rf /data/adb/modules/butterlimitsforop8poos11uni/service1.sh /data/adb/modules/butterlimitsforop8poos11uni/service.sh
 
-$BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/system/etc/mkadp/bl/module.prop /data/adb/modules/butterlimitsforop7poos11uni
-$BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/system/etc/mkadp/bl/system.prop /data/adb/modules/butterlimitsforop7poos11uni
+$BB cp -rf /data/adb/modules/butterlimitsforop8poos11uni/system/etc/mkadp/bl/module.prop /data/adb/modules/butterlimitsforop8poos11uni
+$BB cp -rf /data/adb/modules/butterlimitsforop8poos11uni/system/etc/mkadp/bl/system.prop /data/adb/modules/butterlimitsforop8poos11uni
 
-$BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/system/etc/mkadp/bl/* /data/adb/modules/butterlimitsforop7poos11uni/system/etc/mkadp/
+$BB cp -rf /data/adb/modules/butterlimitsforop8poos11uni/system/etc/mkadp/bl/* /data/adb/modules/butterlimitsforop8poos11uni/system/etc/mkadp/
 
 
 kmsg3 $(date)
